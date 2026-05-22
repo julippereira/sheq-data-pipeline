@@ -1,0 +1,14 @@
+{
+  "Plant A": {
+    "api_key": "your_api_key_here",
+    "tenant_key": "your_tenant_key_here"
+  },
+  "Plant B": {
+    "api_key": "your_api_key_here",
+    "tenant_key": "your_tenant_key_here"
+  },
+  "Plant C": {
+    "api_key": "your_api_key_here",
+    "tenant_key": "your_tenant_key_here"
+  }
+}
