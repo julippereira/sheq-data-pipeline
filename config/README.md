@@ -36,10 +36,10 @@ Example:
 ## ⚙️ Setup Instructions
 
 ### Create a new file:
-[./api_keys.json](./api_keys.json)
+[api_keys.json](./api_keys.json)
 
 ### Copy the structure from:
-[./api_keys.example.json](./api_keys.example.json)
+[api_keys.example.json](./api_keys.example.json)
 
 ### Replace placeholder values with real credentials
 
@@ -52,7 +52,9 @@ Example:
 - Store secrets securely (e.g., Databricks Volumes, Key Vault, or environment variables)
 
 ## Example .gitignore:
-[./api_keys.json](./api_keys.json)
+```
+config/api_keys.json
+```
 
 ---
 
