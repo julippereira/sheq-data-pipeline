@@ -122,31 +122,72 @@ sheq-data-pipeline/
 
 ---
 
+## 📊 BI & Analytics Layer
+
+A Power BI dashboard was developed on top of the processed datasets to enable interactive analysis and decision-making.
+
+### Key Features
+
+- Risk trend analysis over time
+- Monthly evolution tracking
+- Status transitions (New, Mitigated, Deleted)
+- Plant-level comparison
+
+### 📷 Dashboard Preview
+
+![Dashboard](bi/dashboard_overview.png)
+
+--
+
 ## 🧠 Key Features
 
-### ✅ Multi-Source Ingestion
-- Handles API and CSV data integration
+### ✅ End-to-End Data Pipeline
+- Covers the full data lifecycle:
+  ingestion → transformation → integration → analytics
 
-### ✅ Data Standardization
-- Normalizes inconsistent schemas
-- Handles multilingual inputs
+---
 
-### ✅ Resilient Processing
-- Safe date parsing
-- Handling of nulls and inconsistent values
+### ✅ Multi-Source Data Integration
+- Combines data from:
+  - CSV (historical)
+  - REST APIs
+  - External action plan systems
+- Handles schema inconsistencies across sources
+
+---
+
+### ✅ Robust Data Processing
+- Advanced data cleaning and normalization
+- Resilient handling of nulls, inconsistent formats, and multilingual inputs
+- Dynamic schema alignment using PySpark
+
+---
 
 ### ✅ Advanced Transformations
-- Dynamic pivoting
-- Deduplication with window functions
-- Forward-fill logic
+- Window-based deduplication
+- Dynamic pivoting and reshaping
+- Forward-fill logic for time continuity
+
+---
 
 ### ✅ Time-Series Modeling
-- Monthly snapshots
-- Full timeline reconstruction
+- Monthly snapshot generation
+- Complete timeline reconstruction for each record
+- Partitioned datasets optimized for performance
+
+---
 
 ### ✅ State Machine Logic
-- Tracks risk evolution over time
-- Enables advanced analytics
+- Tracks evolution of each record over time
+- Classifies transitions (NEW, MITIGATED, DELETED, UNCHANGED)
+- Enables lifecycle analysis of risk events
+
+---
+
+### ✅ Analytics-Ready Architecture
+- Structured datasets designed for BI consumption
+- Optimized for Power BI and dashboarding tools
+- Supports KPI tracking and trend analysis
 
 ---
 
@@ -184,12 +225,53 @@ All sample data is:
 
 ## 📈 Output
 
-The project generates structured Delta tables ready for:
+The project generates structured, analytics-ready datasets stored as Delta tables, including:
 
-- Power BI dashboards
-- Risk analysis
-- Time-series monitoring
-- KPI reporting
+---
+
+### 🔹 Unified Dataset (sheq_complete)
+- Consolidated data from all sources
+- Enriched with action plan information
+- Standardized schema for consistent analysis
+
+---
+
+### 🔹 Monthly Snapshot (sheq_monthly)
+- Latest state of each record per month
+- Time-partitioned for efficient queries
+- Ideal for time-series reporting
+
+---
+
+### 🔹 Status Tracking Dataset (sheq_status)
+- Full timeline of each record
+- State transitions (NEW, MITIGATED, DELETED, UNCHANGED)
+- Includes analytical metrics such as:
+  - status_code
+  - weight (impact indicator)
+
+---
+
+### 📊 BI Layer
+
+These datasets power an interactive Power BI dashboard that provides:
+
+- Risk evolution over time
+- Monthly trend analysis
+- Status transition tracking
+- Performance comparison across plants
+- Data-driven insights for decision-making
+
+---
+
+### 🎯 Business Value
+
+The final solution enables:
+
+- End-to-end visibility of risk lifecycle
+- Monitoring of mitigation effectiveness
+- Identification of trends and recurring issues
+- Support for strategic and operational decision-making
 
 ---
 
@@ -200,6 +282,7 @@ The project generates structured Delta tables ready for:
 - **Databricks**
 - **REST APIs**
 - **Python**
+- **Power BI**
 
 ---
 
