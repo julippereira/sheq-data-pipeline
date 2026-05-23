@@ -314,6 +314,11 @@ This project was designed to simulate a production-grade data pipeline environme
 
 ---
 
+## 👤 Author
+Data Analytics Intern
+
+Focus: Data Engineering, Automation & Business Intelligence
+
 ## 📬 Contact
 
 Feel free to reach out for questions or discussions about this project.
