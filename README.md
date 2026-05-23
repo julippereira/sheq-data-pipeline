@@ -1,4 +1,4 @@
-# 🧠 SHEQ Data Pipeline (End-to-End Data Engineering Project)
+# 🧠 SHEQ Data Platform (End-to-End Data Engineering & Analytics Project)
 
 This project is an end-to-end data pipeline designed to ingest, transform, integrate, and analyze SHEQ (Safety, Health, Environment & Quality) data across multiple sources.
 
