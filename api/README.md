@@ -43,7 +43,16 @@ Delta Table
 
 Credentials are stored externally and not included in this repository.
 
-See: config/api_keys.example.json
+See: [config/api_keys.example.json](config/api_keys.example.json)
+
+---
+
+## 🧠 Processing Highlights
+
+- Recursive parsing of nested JSON data
+- Dynamic pivoting of semi-structured fields
+- Safe handling of missing columns
+- Multi-unit data ingestion with isolated credentials
 
 ---
 
