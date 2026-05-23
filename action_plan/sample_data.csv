@@ -1,0 +1,24 @@
+PLANT;PLAN;GOAL;ACTION;PERSONINCHARGE;STATUS;DEADLINE;CONCLUSION;UPDATE
+Plant A;PLAN - 001;Risk mitigation initiative;Implement safety improvement;User A;Completed on time;31/03/2025;31/03/2025;16/05/2025
+Plant A;PLAN - 002;Process optimization;Adjust workflow;User A;Completed on time;31/03/2025;31/03/2025;16/05/2025
+Plant A;PLAN - 003;Equipment upgrade;Install new component;User B;Completed early;28/02/2025;20/02/2025;16/05/2025
+Plant A;PLAN - 004;Operational training;Provide onboarding training;User C;In progress;30/09/2025;;16/05/2025
+Plant A;PLAN - 005;Workplace reorganization;Update layout;User D;Not completed;13/06/2025;;16/05/2025
+
+Plant B;PLAN - 006;Fire risk reduction;Install safety equipment;User A;Completed on time;31/03/2025;31/03/2025;16/05/2025
+Plant B;PLAN - 007;Fire risk reduction;Relocate hazardous materials;User A;Completed early;31/03/2025;28/02/2025;16/05/2025
+Plant B;PLAN - 008;Load handling improvement;Adjust storage layout;User B;Completed on time;31/03/2025;31/03/2025;16/05/2025
+
+Plant B;PLAN - 009;Reduce manual handling;Install assistive system;User B;Completed early;28/02/2025;20/02/2025;16/05/2025
+Plant B;PLAN - 010;Reduce manual handling;Install support system;User B;Completed on time;31/03/2025;31/03/2025;16/05/2025
+
+Plant B;PLAN - 011;Safety compliance update;Adjust equipment;User C;Not completed;31/03/2025;;16/05/2025
+Plant B;PLAN - 012;Hazard reduction;Implement engineering control;User D;Completed on time;30/06/2025;30/06/2025;16/05/2025
+
+Plant B;PLAN - 013;System improvement;Optimize process;User E;Completed early;30/04/2025;30/03/2025;16/05/2025
+Plant B;PLAN - 014;Maintenance improvement;Perform scheduled maintenance;User E;Completed on time;30/06/2025;30/06/2025;16/05/2025
+
+Plant B;PLAN - 015;Project validation;Perform technical validation;User F;Completed late;31/03/2025;06/04/2025;16/05/2025
+
+Plant B;PLAN - 016;Process standardization;Update procedures;User F;In progress;31/08/2025;;16/05/2025
+Plant B;PLAN - 017;Operational safety;Improve infrastructure;User A;In progress;31/10/2025;;16/05/2025
