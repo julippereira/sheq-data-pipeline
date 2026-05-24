@@ -319,6 +319,8 @@ Data Analytics Intern
 
 Focus: Data Engineering, Automation & Business Intelligence
 
+---
+
 ## 📬 Contact
 
 Feel free to reach out for questions or discussions about this project.
