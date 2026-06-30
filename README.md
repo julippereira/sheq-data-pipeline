@@ -66,6 +66,7 @@ sheq-data-pipeline/
 ├── sheq_status/        → Risk lifecycle and status monitoring
 │
 ├── sample_data/
+|   ├── action_plan_sample.csv
 │   ├── sheq_monthly_sample.csv
 │   └── sheq_status_sample.csv
 │
