@@ -65,6 +65,10 @@ sheq-data-pipeline/
 ├── sheq_monthly/       → Monthly analytical snapshots
 ├── sheq_status/        → Risk lifecycle and status monitoring
 │
+├── sample_data/
+│   ├── sheq_monthly_sample.csv
+│   └── sheq_status_sample.csv
+│
 ├── dashboard/          → Power BI dashboard assets and previews
 |   ├── SHEQ_Risk_Analytics.pbix
 │   ├── executive_overview.png
