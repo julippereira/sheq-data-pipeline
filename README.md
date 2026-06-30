@@ -6,6 +6,18 @@ It combines data engineering and analytics to deliver a complete solution for ri
 
 ---
 
+## 🎯 Project Highlights
+
+- End-to-end Data Engineering pipeline
+- Azure Databricks + Delta Lake architecture
+- Multi-source data integration
+- Risk lifecycle modeling
+- Power BI analytics layer
+- Interactive executive dashboards
+- Production-inspired project structure
+
+---
+
 ## 🚀 Overview
 
 The solution processes data from:
@@ -435,7 +447,7 @@ This project was designed to simulate a production-grade data pipeline environme
 ---
 
 ## 👤 Author
-Data Analytics Intern
+Data Analytics professional specializing in Data Engineering, Analytics and Business Intelligence.
 
 Focus: Data Engineering, Automation & Business Intelligence
 
@@ -444,12 +456,5 @@ Focus: Data Engineering, Automation & Business Intelligence
 ## 📬 Contact
 
 Feel free to reach out for questions or discussions about this project.
-
-
-
-
-
-
-
 
 
