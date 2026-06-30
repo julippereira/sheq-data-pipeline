@@ -364,33 +364,6 @@ The project generates structured, analytics-ready datasets stored as Delta table
   - status_code
   - weight (impact indicator)
 
----
-
-### 📊 BI & Analytics Layer
-
-The processed and curated datasets are consumed by an interactive Power BI solution designed to transform operational data into actionable business insights.
-
-The analytics layer provides a centralized view of risk exposure, mitigation activities and performance indicators, enabling users to monitor trends, investigate issues and support data-driven decision-making.
-
-#### Analytical Capabilities
-
-- Executive risk monitoring and KPI tracking
-- Risk lifecycle and status transition analysis
-- Action plan governance and follow-up
-- Historical trend and performance analysis
-- Risk classification and prioritization monitoring
-- Cross-plant, area and segment comparison
-- Interactive filtering and drill-down exploration
-
-#### Business Dashboards
-
-- Executive Overview
-- Action Plan Management
-- Risk Group Analysis
-- Risk Lifecycle Monitoring
-
----
-
 ### 🎯 Business Value
 
 The platform delivers value by connecting raw operational data to meaningful business outcomes through a scalable analytics architecture.
