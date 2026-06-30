@@ -21,7 +21,7 @@ The solution combines historical analysis, risk classification and action plan g
 A consolidated view of operational risks by plant, segment and area, allowing users to identify critical concentrations, compare risk levels and monitor historical trends.
 
 <p align="center">
-  <img src="dashboard/executive_overview.png" width="1000">
+  <img src="executive_overview.png" width="1000">
 </p>
 
 ---
@@ -31,7 +31,7 @@ A consolidated view of operational risks by plant, segment and area, allowing us
 Dedicated monitoring of corrective and preventive actions, including status tracking, overdue actions, responsibilities and completion progress.
 
 <p align="center">
-  <img src="dashboard/action_plan_management.png" width="1000">
+  <img src="action_plan_management.png" width="1000">
 </p>
 
 ---
@@ -41,7 +41,7 @@ Dedicated monitoring of corrective and preventive actions, including status trac
 Detailed analysis of specific risk groups, supporting investigation of risk classifications, historical evolution and operational records.
 
 <p align="center">
-  <img src="dashboard/risk_group_analysis.png" width="1000">
+  <img src="risk_group_analysis.png" width="1000">
 </p>
 
 ---
@@ -51,7 +51,7 @@ Detailed analysis of specific risk groups, supporting investigation of risk clas
 End-to-end monitoring of risk status transitions, including open, in-progress, completed and cancelled records. This view helps evaluate mitigation effectiveness and identify operational trends over time.
 
 <p align="center">
-  <img src="dashboard/risk_lifecycle_monitoring.png" width="1000">
+  <img src="risk_lifecycle_monitoring.png" width="1000">
 </p>
 
 ---
