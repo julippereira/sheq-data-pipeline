@@ -66,6 +66,7 @@ sheq-data-pipeline/
 ├── sheq_status/        → Risk lifecycle and status monitoring
 │
 ├── dashboard/          → Power BI dashboard assets and previews
+|   ├── SHEQ_Risk_Analytics.pbix
 │   ├── executive_overview.png
 │   ├── action_plan_management.png
 │   ├── risk_group_analysis.png
