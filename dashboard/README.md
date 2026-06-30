@@ -91,3 +91,26 @@ Power BI Dashboards
           ▼
 Business Insights & Decision Support
 ```
+
+---
+
+## 📥 Power BI Report
+
+The Power BI report used in this project is available for download.
+
+### Download
+
+📄 SHEQ_Risk_Analytics.pbix
+
+### Requirements
+
+- Power BI Desktop
+- Sample datasets included in this repository
+
+### Notes
+
+- The report uses anonymized and mock data.
+- No confidential or proprietary information is included.
+- Visuals and measures were created exclusively for demonstration and portfolio purposes.
+
+---
