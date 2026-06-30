@@ -1,5 +1,13 @@
 # 🧠 SHEQ Data Platform (End-to-End Data Engineering & Analytics Project)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
+  <img src="https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+</p>
+
 This project is an end-to-end data platform designed to ingest, transform, integrate, and analyze SHEQ (Safety, Health, Environment & Quality) data from multiple sources.
 
 It combines data engineering and analytics to deliver a complete solution for risk data processing, time-series modeling, and business intelligence, enabling full visibility into risk lifecycle and supporting data-driven decision-making.
@@ -78,12 +86,12 @@ sheq-data-pipeline/
 ├── sheq_status/        → Risk lifecycle and status monitoring
 │
 ├── sample_data/
-|   ├── action_plan_sample.csv
+│   ├── action_plan_sample.csv
 │   ├── sheq_monthly_sample.csv
 │   └── sheq_status_sample.csv
 │
 ├── dashboard/          → Power BI dashboard assets and previews
-|   ├── SHEQ_Risk_Analytics.pbix
+│   ├── SHEQ_Risk_Analytics.pbix
 │   ├── executive_overview.png
 │   ├── action_plan_management.png
 │   ├── risk_group_analysis.png
@@ -395,11 +403,14 @@ Key benefits include:
 
 ## 🧠 What This Project Demonstrates
 
-- Real-world data engineering pipelines
-- Multi-layer architecture (ingestion → transformation → serving)
-- Handling of messy, real-world datasets
-- Business logic implementation in data pipelines
-- Analytical modeling for risk tracking
+- End-to-end Data Engineering and Analytics development
+- Multi-source data integration (APIs, CSVs and action plans)
+- Large-scale data processing with PySpark and Delta Lake
+- Time-series and risk lifecycle modeling
+- Business rule implementation and data quality controls
+- Analytics-ready data modeling
+- Dashboard development with Power BI
+- Translation of business requirements into scalable data solutions
 
 ---
 
@@ -420,9 +431,18 @@ This project was designed to simulate a production-grade data pipeline environme
 ---
 
 ## 👤 Author
+
 Data Analytics professional specializing in Data Engineering, Analytics and Business Intelligence.
 
-Focus: Data Engineering, Automation & Business Intelligence
+Core competencies:
+
+- Azure Databricks
+- PySpark
+- Delta Lake
+- Data Modeling
+- Power BI
+- Data Automation
+- Analytics Engineering
 
 ---
 
