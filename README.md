@@ -296,14 +296,38 @@ config/api_keys.example.json
 
 ## 📊 Sample Data
 
-Example datasets are provided:
-[action_plan/sample_data.csv](action_plan/sample_data.csv)
+Representative sample datasets are included to allow users to explore the solution and open the Power BI report without requiring access to the original data sources.
 
-All sample data is:
+### Available Datasets
 
-- Anonymized
-- Simplified
-- Structurally equivalent to real data
+```text
+sample_data/
+├── action_plan_sample.csv
+├── sheq_monthly_sample.csv
+└── sheq_status_sample.csv
+```
+
+### Data Characteristics
+
+All datasets are:
+
+- Fully anonymized
+- Generated for demonstration purposes
+- Structurally equivalent to production data
+- Compatible with the Power BI report included in this repository
+- Free of confidential or proprietary information
+
+### Usage
+
+The sample datasets can be used to:
+
+- Execute and validate transformation logic
+- Understand the analytical data model
+- Reproduce Power BI dashboard visualizations
+- Explore KPI calculations and business metrics
+- Test the end-to-end analytics workflow
+
+> **Note:** Sample data was created exclusively for portfolio and educational purposes and does not contain any real business information.
 
 ---
 
