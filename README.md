@@ -178,7 +178,7 @@ Tracks risk status transitions over time, providing visibility into open, in-pro
 
 ![Risk Lifecycle Monitoring](dashboard/risk_lifecycle_monitoring.png)
 
---
+---
 
 ## 🧠 Key Features
 
@@ -334,13 +334,6 @@ The sample datasets can be used to:
 ## 📈 Output
 
 The project generates structured, analytics-ready datasets stored as Delta tables, including:
-
----
-
-### 🔹 Unified Dataset (sheq_complete)
-- Consolidated data from all sources
-- Enriched with action plan information
-- Standardized schema for consistent analysis
 
 ---
 
